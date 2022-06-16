@@ -22,5 +22,20 @@ public class BaseClass extends Reusable_Annotation_Class{
         return  googleSearchResultPage;
     }//end of googleSearchResultPage method
 
+    //create static reference for chick-fil-a home page
+    public static ChickfilaHomePage chickfilaHomePage(){
+        ChickfilaHomePage chickfilaHomePage = new ChickfilaHomePage(driver);
+        return chickfilaHomePage;
 
-}
+
+
+
+
+
+
+        }
+
+    }
+
+
+
